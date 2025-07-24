@@ -1,0 +1,39 @@
+
+.u-list-reset {
+    list-style: none;
+    margin-left: 0;
+}
+
+.u-mb-1 {
+    margin-bottom: .5rem;
+}
+
+@media (min-width: 1024px) {
+
+    .o-section__header {
+
+        width: 25%;
+
+        text-align: right;
+
+    }
+
+    .o-section__content {
+
+        width: 85%;
+
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .o-section__header {
+
+        padding-left: 0;
+
+    }
+
+}
