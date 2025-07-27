@@ -51,7 +51,7 @@ a:active,
 /* Horizontal Rulers */
 hr,
 .t-border-color {
-  border-color: #ececec;
+  border-color: #c8c8c8;
 }
 
 hr,
@@ -78,7 +78,7 @@ hr,
 
 /* Brand Colors */
 .t-title__first-word {
-  color: #939393;
+  color: #7b7b7b;
 }
 
 .t-title__second-word {
@@ -86,7 +86,7 @@ hr,
 }
 
 .t-sub-title {
-  color: #939393;
+  color: #858585;
 }
 
 /* Brand Typography */
@@ -124,7 +124,7 @@ hr,
 /* Social Buttons */
 .t-social-button {
   background: #e4e4e4;
-  border-color: #888888;
+  border-color: #999999;
 }
 
 .t-social-button .fas,
@@ -222,4 +222,14 @@ a .fa,
   .t-section:nth-child(even) .t-timeline__point {
     box-shadow: 0 0 0 6px #fcfcfc;
   }
+}
+
+.c-work__location {
+  color: #444 !important;   /* or any dark color you prefer */
+  font-weight: 500;         /* optional: makes it a bit bolder */
+}
+
+.c-work__timeframe {
+  color: #444 !important;   /* or any dark color you prefer */
+  font-weight: 500;         /* optional: makes it stand out */
 }
